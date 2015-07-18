@@ -29,6 +29,7 @@ dependencies {
     // log4j is necessary dependency by Zookeeper
     compile 'org.slf4j:slf4j-api:1.7.7'
     compile 'org.apache.zookeeper:zookeeper:3.4.6'
+    // compile 'com.google.guava:guava:18.0'
     testCompile 'junit:junit:4.12'
 }
 
