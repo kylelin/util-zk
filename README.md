@@ -2,7 +2,7 @@
 
 `util-zk` is a zookeeper connection client with some implementation of zookeeper recipes like election.
 - `ZooKeeperConnection`, a zookeeper connection client.
-- `Elect`, a election interface implemented by `NaiveElect`.
+- `Elect`, a election interface implemented by `NaiveElect` and `ContentionFreeElect`.
 
 ### Version
 0.0.1
@@ -62,7 +62,9 @@ zkc.commit(txn);
 
 ### Recipes
 * [Election]
-* Others
+* [DistributedQueue]
+* [DistributedLock]
+* [Barrier]
 
 License
 ----
@@ -70,4 +72,3 @@ License
 Apache License 2.0
 
  [Election]:doc/elect.md
-
